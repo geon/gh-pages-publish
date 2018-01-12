@@ -1,0 +1,94 @@
+/*
+YUI 3.18.1 (build f7e7bcb)
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+* {
+  font-family: inherit;
+  letter-spacing: inherit;
+}
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  background: #fff;
+}
+h1,
+h2,
+h3,
+p,
+ul,
+pre,
+hr {
+  margin-top: 1.5em;
+}
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  color: #5cf;
+  font-weight: normal;
+}
+h1 {
+  font-size: 2.25em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+h3 + p {
+  margin-top: 0;
+}
+p,
+li {
+  line-height: 1.5em;
+}
+a {
+  text-decoration: none;
+  color: #f4a;
+}
+a:visited {
+  color: #5cf;
+}
+a:hover {
+  text-decoration: underline;
+}
+ul > li {
+  margin-left: 1em;
+}
+ul > li:before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #5cf;
+  border-radius: 4px;
+  margin-right: .5em;
+  margin-bottom: calc(1.5em / 4 - 8px / 2);
+}
+pre {
+  margin-left: 1em;
+}
+code {
+  background: #eee;
+  padding: 0.1em 0.25em;
+  border-radius: 0.25em;
+}
+div.content {
+  width: 600px;
+  margin: 50px auto;
+}
+a.back {
+  font-size: 48px;
+  text-decoration: none;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+}
